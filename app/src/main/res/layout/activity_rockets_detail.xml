@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RocketsDetail">
+
+
+    <ImageView
+        android:id="@+id/rocketImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/img1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rocketHeading"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_margin="10dp"
+        android:text="Polar Satellite Launch Vehicle (PSLV)"
+        android:layout_gravity="center">
+
+    </TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engine Details : "
+                android:textSize="15sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/rocketEngineContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="PSLV is configured with four variants like 6,4,2 solid rocket strap-on motors and core alone versions. Variants will be chosen based on the payload weights and orbit to be accomplished.PSLV has been a versatile launch vehicle deployed for launching all the three types of payloads viz. Earth Observation, Geo-stationary and Navigation. It has got highest success rate and considered as work horse of ISRO.
+        GSLV with indigenous Cryogenic Upper Stage has enabled the launching up to 2 tonne class of communication satellites.
+        The LVM3 is the next generation launch vehicle capable of launching 4 tonne class of communication satellites and 10 tonne class of payloads to LEOs.
+        The vehicle was developed with completely indigenized technologies including the C25 cryo stage.
+        The launch vehicle has a track record of all successful launches even from the first development flight. The Human rated LVM3 is identified as the launch vehicle for Gaganyaan mission, which is named as HRLV.
+        The Small Satellite Launch Vehicle (SSLV) is being developed with complete indigenous technologies to meet the small satellite launch market on demand driven basisIn order to achieve high accuracy in placing satellites into their orbits, a combination of accuracy, efficiency, power and immaculate planning are required."
+                android:textSize="14sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fuel Types : "
+                android:layout_marginTop="12dp"
+                android:textSize="15sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/rocketFuelContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="PSLV is configured with four variants like 6,4,2 solid rocket strap-on motors and core alone versions. Variants will be chosen based on the payload weights and orbit to be accomplished.PSLV has been a versatile launch vehicle deployed for launching all the three types of payloads viz. Earth Observation, Geo-stationary and Navigation. It has got highest success rate and considered as work horse of ISRO.
+        GSLV with indigenous Cryogenic Upper Stage has enabled the launching up to 2 tonne class of communication satellites.
+        The LVM3 is the next generation launch vehicle capable of launching 4 tonne class of communication satellites and 10 tonne class of payloads to LEOs.
+        The vehicle was developed with completely indigenized technologies including the C25 cryo stage.
+        The launch vehicle has a track record of all successful launches even from the first development flight. The Human rated LVM3 is identified as the launch vehicle for Gaganyaan mission, which is named as HRLV.
+        The Small Satellite Launch Vehicle (SSLV) is being developed with complete indigenous technologies to meet the small satellite launch market on demand driven basisIn order to achieve high accuracy in placing satellites into their orbits, a combination of accuracy, efficiency, power and immaculate planning are required."
+                android:textSize="14sp">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

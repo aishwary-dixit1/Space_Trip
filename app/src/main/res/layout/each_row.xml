@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+app:cardElevation="5dp"
+app:cardCornerRadius="23dp"
+android:layout_margin="9dp"
+android:id="@+id/cardItem">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/headingImage"
+        android:layout_margin="10dp"
+        android:src="@drawable/img1"
+        app:shapeAppearanceOverlay="@style/SoftCorner"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/headingTitle"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="Polar Satellite Launch Vehicle (PSLV)"
+            android:layout_gravity="center">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/successfullMissions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="8dp"
+            android:text="Successful Mission 57">
+        </TextView>
+
+        <TextView
+            android:id="@+id/successRate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:padding="3dp"
+            android:text="Success Rate: 97%">
+        </TextView>
+
+        <TextView
+            android:id="@+id/firstLaunch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:padding="3dp"
+            android:text="First Launch : 20 September, 1993">
+        </TextView>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

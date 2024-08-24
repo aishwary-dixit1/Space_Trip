@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hdspace"
+    tools:context=".NoticeBoard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="News and Upcoming Events"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:fillViewport="true"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="40dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="75dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaganyaan 1: Scheduled for early 2024, this mission is a crucial test flight for India's first manned space mission. It aims to carry three crew members into space, marking a significant milestone in ISRO's human spaceflight program."
+                android:layout_gravity="center"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mangalyaan-2 (Mars Orbiter Mission 2): This mission, planned for 2024, will be ISRO's second venture to Mars, focusing on studying the planet's surface, atmosphere, and climate."
+                android:layout_gravity="center"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NISAR Mission: A joint project with NASA, the NASA-ISRO Synthetic Aperture Radar (NISAR) mission is expected to launch in January 2024. It will deploy a radar satellite for Earth observation, helping in understanding natural hazards like earthquakes and tsunamis."
+                android:layout_gravity="center"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shukrayaan-1 (Venus Orbiter Mission): Slated for late 2024 or 2025, Shukrayaan-1 will be India's first mission to Venus, aiming to study the planet's atmosphere over a five-year period."
+                android:layout_gravity="center"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INSAT 3DS: Another significant mission scheduled for January 2024, INSAT 3DS will enhance weather monitoring and disaster management capabilities."
+                android:layout_gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="X-ray Polarimeter Satellite: Set to launch in 2024, this satellite will study the polarization of cosmic X-rays, contributing to our understanding of high-energy astrophysical phenomena." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reusable Launch Vehicle (RLV) Trials: ISRO is preparing for trials of a winged body Reusable Launch Vehicle, which could play a crucial role in future space missions"
+                android:layout_gravity="center"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaganyaan 1: Scheduled for early 2024, this mission is a crucial test flight for India's first manned space mission. It aims to carry three crew members into space, marking a significant milestone in ISRO's human spaceflight program."
+                android:layout_gravity="center"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaganyaan 1: Scheduled for early 2024, this mission is a crucial test flight for India's first manned space mission. It aims to carry three crew members into space, marking a significant milestone in ISRO's human spaceflight program."
+                android:layout_gravity="center"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaganyaan 1: Scheduled for early 2024, this mission is a crucial test flight for India's first manned space mission. It aims to carry three crew members into space, marking a significant milestone in ISRO's human spaceflight program."
+                android:layout_gravity="center"
+                android:padding="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
